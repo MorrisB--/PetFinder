@@ -39,7 +39,7 @@ input, textarea {
 }
 
 .submit {
-    background: green;
+    background: #669999;
     border-radius: 10px;
     font-family: Arial;
     color: #ffffff;
@@ -48,5 +48,5 @@ input, textarea {
 }
 
     .submit:hover {
-        background: black;
+        background: #334d4d;
     }
