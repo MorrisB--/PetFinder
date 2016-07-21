@@ -24,7 +24,7 @@
 
         <div class="index-owner">
 
-            <div>
+            <div class="col-lg-3 col-lg-offset-9">
                 <input type="text" name="username" placeholder="Username" /><br />
                 <input type="text" name="password" placeholder="Password" /><br />
                 <input type="submit" name="submit" value="Submit" class="submit" /><br />
