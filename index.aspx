@@ -21,10 +21,11 @@
         </div>
 
         <!-- Owner content -->
-        
-        <div style="height:1000px; width:100%; overflow:hidden;">
-        <img src="images/dog-car-small.jpg" style="min-width:100%; min-height:100%; margin-left:-100px;"/>
-            </div>
+
+        <div class="index-owner">
+            <img src="images/dog-car.jpg" />
+        </div>
+
     </form>
 </body>
 </html>
