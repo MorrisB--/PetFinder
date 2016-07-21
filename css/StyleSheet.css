@@ -15,6 +15,38 @@
     }
 
     .index-owner div {
+        margin-top: 300px;
         position: absolute;
         z-index: 1;
+    }
+
+    .index-owner h1 {
+        color: white;
+        text-shadow: -1px -1px 5px black;
+    }
+
+/*Sign-in*/
+
+input, textarea {
+    width: 400px;
+    height: 70px;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #3a3a3a;
+    border-radius: 10px;
+}
+
+.submit {
+    background: green;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+    .submit:hover {
+        background: black;
     }
