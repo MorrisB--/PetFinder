@@ -13,7 +13,8 @@
         -webkit-filter: blur(5px);
         position: relative;
     }
-        .index-owner div {
+
+    .index-owner div {
         position: absolute;
-        z-index:1;
+        z-index: 1;
     }
