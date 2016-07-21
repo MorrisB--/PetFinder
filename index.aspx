@@ -16,12 +16,12 @@
         <!-- May need to put this in a container -->
 
         <!-- Title -->
-
+        <!--
         <div class="jumbotron">
             <h1>PetFinder</h1>
             <p>Text about pet finder here.....</p>
         </div>
-
+        -->
         <!-- Owner content -->
 
         <div class="index-owner">
