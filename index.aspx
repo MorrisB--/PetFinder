@@ -23,11 +23,13 @@
         <!-- Owner content -->
 
         <div class="index-owner">
+
+            <div>
+                <p>All text and content here.</p>
+            </div>
+
             <!-- Source if needed https://www.pexels.com/photo/dog-pet-animal-car-24196/ -->
-                                                <p>Test test test</p>
-
             <img src="images/dog-car.jpg">
-
 
         </div>
 
