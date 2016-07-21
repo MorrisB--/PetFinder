@@ -12,8 +12,14 @@
 
 <body>
     <form id="form1" runat="server">
-        <div>
+
+        <!-- Title -->
+
+        <div class="jumbotron">
+            <h1>PetFinder</h1>
+            <p>Text about pet finder here.....</p>
         </div>
+
     </form>
 </body>
 </html>
