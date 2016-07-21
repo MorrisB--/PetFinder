@@ -24,6 +24,28 @@
         -->
         <!-- Owner content -->
 
+        <nav class="navbar navbar-default"
+            style="position: fixed; top: 0; width: 100%; z-index: 2">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#myNavbar">
+                        <span class="icon-bar"></span><span class="icon-bar"></span><span
+                            class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">PetFinder</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <div class="index-owner">
 
             <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2">
