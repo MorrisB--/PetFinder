@@ -24,7 +24,11 @@
 
         <div class="index-owner">
             <!-- Source if needed https://www.pexels.com/photo/dog-pet-animal-car-24196/ -->
-            <img src="images/dog-car.jpg" />
+                                                <p>Test test test</p>
+
+            <img src="images/dog-car.jpg">
+
+
         </div>
 
     </form>
