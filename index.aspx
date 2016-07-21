@@ -14,14 +14,7 @@
     <form id="form1" runat="server">
 
         <!-- May need to put this in a container -->
-
-        <!-- Title -->
-        <!--
-        <div class="jumbotron">
-            <h1>PetFinder</h1>
-            <p>Text about pet finder here.....</p>
-        </div>
-        -->
+        
         <!-- Owner content -->
 
         <nav class="navbar navbar-default"
