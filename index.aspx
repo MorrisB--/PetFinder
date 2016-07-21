@@ -25,7 +25,10 @@
         <div class="index-owner">
 
             <div>
-                <p>All text and content here.</p>
+                <input type="text" name="username" placeholder="Username" /><br />
+                <input type="text" name="password" placeholder="Password" /><br />
+                <input type="submit" name="submit" value="Submit" class="submit" /><br />
+                <a href="register.aspx">Register Here</a>
             </div>
 
             <!-- Source if needed https://www.pexels.com/photo/dog-pet-animal-car-24196/ -->
