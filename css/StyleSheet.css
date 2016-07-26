@@ -1,6 +1,9 @@
 ﻿body {
 }
 
+.page-title {
+    background-color: #0099ff;
+}
 .index-owner {
     height: 1000px;
     width: 100%;
