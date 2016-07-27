@@ -48,7 +48,8 @@
             <div class="col-lg-4 col-lg-offset-8 col-md-4 col-md-offset-8">
                 <input type="text" name="username" placeholder="Username" /><br />
                 <input type="text" name="password" placeholder="Password" /><br />
-                <input type="submit" name="submit" value="Submit" class="submit" /><br />
+                <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="submit" OnClick="btnSubmit_Click" 
+                    OnClientClick="window.open('profile.aspx')"/>
                 <a href="register.aspx">Register Here</a>
             </div>
 
