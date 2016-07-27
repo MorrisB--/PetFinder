@@ -61,12 +61,14 @@
 
         <!-- Finder content -->
 
-        <div>
-            <h1>Found a lost pet?</h1>
-            <h3>Enter the PetID here:</h3>
-            <input type="text" name="petID" placeholder="xxx-xxx-xxx" /><br />
-            <input type="submit" name="submit" value="Submit" class="submit" /><br />
-            <p>&nbsp;</p>
+        <div class="page-title">
+            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3" style="margin-top: 150px; margin-bottom:150px;">
+                <h1 style="text-align: center;">Found a lost pet?</h1>
+                <hr />
+                <input type="text" name="petID" placeholder="Enter PetID here" style="width:80%;" />
+                <input type="submit" name="submit" value="Submit" class="submit" style="width:19%;"/><br />
+                <p>&nbsp;</p>
+            </div>
         </div>
 
     </form>
