@@ -14,8 +14,8 @@
     <form id="form1" runat="server">
 
         <!-- May need to put this in a container -->
-        
-        <!-- Owner content -->
+
+        <!-- Navigation bar -->
 
         <nav class="navbar navbar-default"
             style="position: fixed; top: 0; width: 100%; z-index: 2">
@@ -39,6 +39,8 @@
             </div>
         </nav>
 
+        <!-- Owner content -->
+
         <div class="index-owner">
 
             <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2">
@@ -56,6 +58,18 @@
             <!-- Source if needed https://www.pexels.com/photo/dog-pet-animal-car-24196/ -->
             <img src="images/dog-car.jpg" />
 
+        </div>
+
+        <!-- Finder content -->
+
+        <div class="page-title">
+            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3" style="margin-top: 150px; margin-bottom:150px;">
+                <h1 style="text-align: center;">Found a lost pet?</h1>
+                <hr />
+                <input type="text" name="petID" placeholder="Enter PetID here" style="width:80%;" />
+                <input type="submit" name="submit" value="Submit" class="submit" style="width:19%;"/><br />
+                <p>&nbsp;</p>
+            </div>
         </div>
 
     </form>
