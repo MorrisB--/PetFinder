@@ -50,8 +50,8 @@
             <div class="col-lg-4 col-lg-offset-8 col-md-4 col-md-offset-8">
                 <input type="text" name="username" placeholder="Username" /><br />
                 <input type="text" name="password" placeholder="Password" /><br />
-                <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="submit" OnClick="btnSubmit_Click" 
-                    OnClientClick="window.open('profile.aspx')"/>
+                <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="submit" OnClick="btnSubmit_Click"
+                    OnClientClick="window.open('profile.aspx')" />
                 <a href="register.aspx">Register Here</a>
             </div>
 
@@ -62,12 +62,12 @@
 
         <!-- Finder content -->
 
-        <div class="page-title">
-            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3" style="margin-top: 150px; margin-bottom:150px;">
+        <div class="container page-title " style="background-color: #0099ff; width: 100%;">
+            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3" style="margin-top: 150px; margin-bottom: 150px;">
                 <h1 style="text-align: center;">Found a lost pet?</h1>
                 <hr />
-                <input type="text" name="petID" placeholder="Enter PetID here" style="width:80%;" />
-                <input type="submit" name="submit" value="Submit" class="submit" style="width:19%;"/><br />
+                <input type="text" name="petID" placeholder="Enter PetID here" style="width: 80%;" />
+                <input type="submit" name="submit" value="Submit" class="submit" style="width: 19%;" /><br />
                 <p>&nbsp;</p>
             </div>
         </div>
