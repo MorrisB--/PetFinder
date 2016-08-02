@@ -55,7 +55,7 @@
                     <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="submit" OnClick="btnSubmit_Click"
                         OnClientClick="window.open('profile.aspx')" /><br />
                     <!-- The code for the modal is at the bottom of the page -->
-                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Register</button>
 
                 </div>
 
@@ -87,10 +87,14 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Modal Header</h4>
+                                <h4 class="modal-title">Register</h4>
                             </div>
                             <div class="modal-body">
-                                <p>Some text in the modal.</p>
+                                <p>Please fill out the form below to create a free account.</p>
+                                <input type="text" name="first_name" placeholder="First Name" /><br />
+                                <input type="text" name="last_name" placeholder="Last Name" /><br />
+                                <input type="text" name="email" placeholder="Email" /><br />
+                                <input type="text" name="address" placeholder="Address" /><br />
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
