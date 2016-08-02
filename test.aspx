@@ -4,8 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>PetFinder</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <!-- Morris, update this in the docs -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/StyleSheet.css" />
@@ -52,8 +53,8 @@
                     <input type="text" name="username" placeholder="Username" /><br />
                     <input type="text" name="password" placeholder="Password" /><br />
                     <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="submit" OnClick="btnSubmit_Click"
-                        OnClientClick="window.open('profile.aspx')" />
-                    <!-- Trigger the modal with a button -->
+                        OnClientClick="window.open('profile.aspx')" /><br />
+                    <!-- The code for the modal is at the bottom of the page -->
                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
 
                 </div>
@@ -75,12 +76,8 @@
                 </div>
             </div>
 
-
-            <!-- MODAL STARTS HERE -->
+            <!-- MODAL STARTS HERE DO NOT MOVE -->
             <div class="container">
-
-
-
 
                 <!-- Modal -->
                 <div class="modal fade" id="myModal" role="dialog">
@@ -104,7 +101,6 @@
                 </div>
 
             </div>
-
             <!-- MODAL ENDS HERE -->
 
 
