@@ -1,0 +1,32 @@
+﻿body {
+    background-color: #0099ff;
+    font-family: Arial;
+    color: white;
+}
+
+.pet-name {
+    margin-top: 60px;
+    margin-bottom: 15px;
+    font-size: xx-large;
+    text-shadow: -1px -1px 5px black;
+    text-align: center;
+}
+.wrapper {
+    display: flex;
+    margin-bottom: 75px;
+}
+
+.map { 
+    flex: 0 0 50%;
+    text-align: center;
+}
+
+.text {
+    flex: 1;
+    font-size: large;
+    line-height: 1.5;
+}
+
+p {
+    justify-content: flex-start;
+}
