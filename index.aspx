@@ -95,6 +95,7 @@
                                 <input type="text" name="last_name" placeholder="Last Name" /><br />
                                 <input type="text" name="email" placeholder="Email" /><br />
                                 <input type="text" name="address" placeholder="Address" /><br />
+                                <p>Account successfully created!</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
