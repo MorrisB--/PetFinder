@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>PetFinder</title>
+    <link rel="stylesheet"
+        href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/StyleSheet.css" />
+</head>
+
+<body style="background-color:#0099ff;">
+    <form id="faqForm" runat="server">
+
+        <!-- May need to put this in a container -->
+
+        <!-- Navigation bar -->
+
+		<nav class="navbar navbar-default"
+            style="position: fixed; top: 0; width: 100%; z-index: 2">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#myNavbar">
+                        <span class="icon-bar"></span><span class="icon-bar"></span><span
+                            class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" alt="Home Page" href="index.aspx">PetFinder</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- FAQ page -->
+	<section class="cd-faq">	
+		<div class="cd-faq-items">
+		<ul id="owner" class="cd-faq-group">
+			<li class="cd-faq-title"><h2>HIDDEN</h2></li>
+			
+			<li>
+				<img src ="CorgiRun.jpg" alt="Corgis Fuck ya!" style ="width:222px;height:105px;">
+				<a class="cd-faq-trigger" style="color:black;"  href="#0"><b>Where/How do I create an account?</b> </a>
+				
+					<p style="margin-left: 222px">You create an account on the home page under the login section. There is a link under the login boxes which allows you to make a new account. After the link is clicked a form opens asking for your first name, last name, email, and address to be submitted into our database. </p>
+			
+			</li>
+
+			<li>
+				<img src ="HotdogCorgi.jpg" alt="Corgis Fuck ya!" style ="width:222px;height:105px;">
+				<a class="cd-faq-trigger" style="color:black;" href="#0"><b>Where/How do I add a pet to be tracked?</b></a>
+				<div class="cd-faq-content">
+				<p style="margin-left: 222px"> You can add a pet from the profile page.</p>	
+				</div> <!-- cd-faq-content -->
+			</li>
+			
+			<li>
+				<img src ="corgiPassedOut.jpg" alt="Corgis Fuck ya!" style ="width:222px;height:105px;">
+				<a class="cd-faq-trigger" style="color:black;" href="#0"><b>Where/How can I track my pet?</b></a>
+				<div class="cd-faq-content">
+					<p style="margin-left: 222px">Once your pet has been registered, you click the track button and it will show the pets locations every two hours for the last twenty-four hours.</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+
+			<li>
+				<img src ="CorgiPissed.jpg" alt="Corgis Fuck ya!" style ="width:222px;height:105px;">
+				<a class="cd-faq-trigger" style="color:black;" href="#0"><b>I found a pet, where can I input the dog collar number?</b></a>
+				<div class="cd-faq-content">
+					<p style="margin-left: 222px">You can input the dog collar on the home page at the bottom. Once inputted, the owner information will pop up under the box you inputted the unique petID.</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+		</ul> <!-- cd-faq-group -->
+		</div><!-- cd-faq-items -->
+	</section> <!-- cd-faq -->
+    </form>
+</body>
+</html>
