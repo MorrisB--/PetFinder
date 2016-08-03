@@ -6,13 +6,16 @@
 <head runat="server">
     <title>PetFinder</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-    <!-- Morris, update this in the docs -->
+    <!-- Note to self, update this in the docs -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/StyleSheet.css" />
     <script>
         function myFunction() {
             document.getElementById("demo").style.visibility = "visible";
+        }
+        function myFunction2() {
+            document.getElementById("foundPet").style.visibility = "visible";
         }
     </script>
 
@@ -76,9 +79,23 @@
                     <h1 style="text-align: center;">Found a lost pet?</h1>
                     <hr />
                     <input type="text" name="petID" placeholder="Enter PetID here" style="width: 80%;" />
-                    <input type="submit" name="submit" value="Submit" class="submit" style="width: 19%;" /><br />
+                    <a href="javascript:void(0)">
+                        <div onclick="myFunction2()" class="submit" style="text-align: center; float: right; padding: 22px 0; margin-top: 9px; width:19%;">Submit</div>
+                    </a>
+                    <br />
                     <p>&nbsp;</p>
+                    <div id="foundPet" style="visibility: hidden; background-color: lightgray; border-radius: 10px; padding-left:20px;">
+                        <br />
+                        <h1>Owner information:</h1>
+                        <h2>John Doe</h2>
+                        <h3>2341 Main St.</h3>
+                        <h3>(224) 597-5180</h3>
+                        <br />
+                    </div>
+
                 </div>
+
+
             </div>
 
             <!-- MODAL STARTS HERE DO NOT MOVE -->
