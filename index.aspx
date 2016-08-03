@@ -40,7 +40,7 @@
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
-                            <li><a href="FAQ.html">FAQ</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
                         </ul>
                     </div>
                 </div>
