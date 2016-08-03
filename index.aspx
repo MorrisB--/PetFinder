@@ -10,6 +10,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/StyleSheet.css" />
+    <script>
+        function myFunction() {
+            document.getElementById("demo").style.visibility = "visible";
+        }
+    </script>
 
 </head>
 <body>
@@ -95,7 +100,11 @@
                                 <input type="text" name="last_name" placeholder="Last Name" /><br />
                                 <input type="text" name="email" placeholder="Email" /><br />
                                 <input type="text" name="address" placeholder="Address" /><br />
-                                <p>Account successfully created!</p>
+                                <a href="#">
+                                    <div onclick="myFunction()" class="submit" style="width: 400px; text-align: center; padding: 20px 0; margin-top: 10px;">Submit</div>
+                                </a>
+                                <br />
+                                <div id="demo" style="visibility: hidden;">Successfully created account!</div>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
