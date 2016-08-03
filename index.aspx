@@ -60,7 +60,7 @@
                     <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="submit" OnClick="btnSubmit_Click"
                         OnClientClick="window.open('profile.aspx')" /><br />
                     <!-- The code for the modal is at the bottom of the page -->
-                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Register</button>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="margin-top:10px;">Register</button>
 
                 </div>
 
