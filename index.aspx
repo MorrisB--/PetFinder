@@ -36,14 +36,11 @@
                             <span class="icon-bar"></span><span class="icon-bar"></span><span
                                 class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">PetFinder</a>
+                        <a class="navbar-brand" href="index.aspx">PetFinder</a>
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
-                            <li><a href="#">Link</a></li>
-                            <li><a href="#">Link</a></li>
-                            <li><a href="#">Link</a></li>
-                            <li><a href="#">Link</a></li>
+                            <li><a href="FAQ.html">FAQ</a></li>
                         </ul>
                     </div>
                 </div>
