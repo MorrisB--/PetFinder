@@ -51,7 +51,7 @@
             <div class="index-owner">
 
                 <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2">
-                    <h1><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim augue a lorem molestie, consectetur accumsan massa convallis.</i></h1>
+                    <h1><i>Bring pets and pet owners back together since 2016. Our mission is to help keep track of your pet so you can keep your buddy around to love and cherish!</i></h1>
                 </div>
 
                 <div class="col-lg-4 col-lg-offset-8 col-md-4 col-md-offset-8">
