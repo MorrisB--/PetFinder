@@ -53,3 +53,98 @@ input, textarea {
     .submit:hover {
         background: #334d4d;
     }
+
+ #nameLabel{
+     text-align: center;
+     font-family: Arial;
+     font-size: 40px;
+ }
+
+ h1{
+       margin-top: 75px;
+       text-align: center;
+       color: white;
+       text-shadow: 2px 2px black;
+       font-weight: bold;
+       font-size: 50px;
+ }
+ #pet1 {
+        width: 500px;
+        margin-top:125px;
+        float:left;
+        padding-left: 125px;
+        clear: both;
+ }
+#pet2 {
+   
+    /*float: left;
+    clear: both;
+    margin-top: 25px;
+    padding-left: 125px;*/
+}
+#scout {
+    width: 236px;
+    height: 236px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #669999;
+    border-width: 2px;
+    margin: 5px;
+}
+#trackButton1{
+    margin-left: 80px;
+    width:150px;
+    background: #669999;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+#trackButton2 {
+    /*       margin-left: 80px;
+*/
+    width: 150px;
+    background: #669999;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+#addButton{
+    width: 110px;
+    background: #669999;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+#petNameTextBox1{
+    width: 150px;
+    float: right;
+    padding-right: 200px;
+}
+#petImage2{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #669999;
+    border-width: 2px;
+}
+#petLabel1{
+    margin-left: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: -0.75px 0 white, 0 0.75px white, 0.75px 0 white, 0 -0.75px white;
+
+}
+#petLabel2{
+    
+    font-size: 30px;
+    font-weight: bold;
+     text-shadow: -0.75px 0 white, 0 0.75px white, 0.75px 0 white, 0 -0.75px white;
+}
+
+
