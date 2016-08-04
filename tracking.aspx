@@ -34,7 +34,7 @@
         </nav>
 
         <div class="pet-name">
-            <asp:Label ID="PetName" runat="server" Text="Fido"></asp:Label>
+            <asp:Label ID="PetName" runat="server" Text="Scout"></asp:Label>
             <br />
         </div>
 
