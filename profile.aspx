@@ -32,7 +32,7 @@
     </nav>
     <div id="body">
         <form id="form1" runat="server">
-            <h1>Hi John Doe!</h1>
+            <h1 class="name-title">Hi John Doe!</h1>
             <div style="width: 100%; height: 100px;"></div>
             <div id="picxx" class="col-lg-2 col-lg-offset-1">
                 <img id="scout" src="images/Scout.jpg" /></br>
