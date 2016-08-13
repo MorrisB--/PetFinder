@@ -6,7 +6,6 @@
 <head runat="server">
     <title>PetFinder</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-    <!-- Note to self, update this in the docs -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/StyleSheet.css" />
@@ -23,7 +22,6 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <!-- May need to put this in a container -->
              
             <!-- Navigation bar -->
 
